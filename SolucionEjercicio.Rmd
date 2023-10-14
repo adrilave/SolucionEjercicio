@@ -138,11 +138,14 @@ e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. �
 
 ```{r}
 
+diferentes <- setdiff(Animals2,mammals)
 
+count(setdiff(Animals2,mammals))
 
+rownames(diferentes) %in% rownames(Animals2)
+rownames(diferentes) %in% rownames(mammals)
 
-
-
+#No son mamiferos
 ```
 
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
