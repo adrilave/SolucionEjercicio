@@ -100,6 +100,24 @@ mammals <- MASS::mammals
 help("Animals2")
 help("mammals")
 
+#b)
+dim(Animals2)
+
+dim(mammals)
+
+head(Animals2)
+
+head(mammals)
+
+tail(Animals2)
+
+tail(mammals)
+
+str(Animals2)
+
+str(mammals)
+
+
 ```
 
 d.  Usa la función **intersect** y almacena en la variable *commonAnimals* los aminales que aparezcan en ambos conjuntos
